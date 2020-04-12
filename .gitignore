@@ -56,6 +56,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
+db/
 *.log
 local_settings.py
 db.sqlite3
@@ -104,6 +105,8 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.vscode/
+bot/
 env/
 venv/
 ENV/
@@ -127,3 +130,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Saved algorithm
+outputs/
